@@ -21,6 +21,13 @@
         android:text="Réglages"
         android:id="@+id/settings"
         android:layout_marginTop="80dp"
+<<<<<<< HEAD
         android:layout_below="@+id/set_movement"
         android:layout_centerHorizontal="true" />
+=======
+        android:layout_below="@+id/set_move"
+        android:layout_centerHorizontal="true"
+        android:onClick="settings"
+        />
+>>>>>>> origin/master
 </RelativeLayout>
