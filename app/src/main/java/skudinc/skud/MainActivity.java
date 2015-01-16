@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -35,5 +37,12 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+    public void setMovement() {
+        findViewById(R.id.set_movement).setActivated(false);
+        TextView test = new TextView(getApplicationContext());
+        Toast.makeText(getApplicationContext(), "test", Toast.LENGTH_LONG);
     }
 }
