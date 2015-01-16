@@ -11,7 +11,9 @@
         android:text="Définir mouvement"
         android:id="@+id/set_movement"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="setMovement"
+    />
 
     <Button
         android:layout_width="wrap_content"
